@@ -1,0 +1,107 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    /* text-align: center; */
+  }
+  .main{
+    display: block;
+    position: relative;
+  }
+  .first{
+    text-align: center;
+    /* display: ; */
+    /* column-gap: 20px; */
+    /* display: flex; */
+    
+  }
+  .main::after{
+    content: "";
+    height: 29px;
+    width: 3px;
+    top: 39px;
+    right: 50%;
+    /* left: 175px; */
+    /* text-align: center; */
+    position: absolute;
+    background-color: #fff;
+  
+  }
+  .row2{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    position: relative;
+  margin-top: 25px;
+  text-align: center;
+  }
+  .row2::before{
+    content: "";
+    height: 3px;
+    /* width: 91%; */
+    top: -20px;
+    left: 11%;
+    right: 11%;
+    position: absolute;
+    background-color: #fff;
+  }
+  button{
+    background-color: #fff !important;
+    color: #000;
+    margin-bottom: 20px;
+  }
+  .third{
+    display: flex;
+    /* justify-content: space-between !important; */
+    column-gap: 20px;
+  }
+  .two{
+    position: relative;
+  }
+  .userTwo::before{
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 3px;
+    background: #fff;
+    top: -18px;
+    left: 65px;
+  }
+  .userTwo::after{
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 3px;
+    background: #fff;
+    top: 29%;
+    left: 65px;
+  }
+  .third{
+    position: relative;
+  }
+  .third::before{
+    position: absolute;
+    content: "";
+    height: 3px;
+    /* width: 100%; */
+    left: 22%;
+    right: 19%;
+    background: #fff;
+  }
+  
+  .user{
+    position: relative;
+    margin-top: 20px;
+  }
+  .user::before{
+   
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 3px;
+    background: #fff;
+    top: -18px;
+    /* left: 45%; */
+    right: 44%;
+  }
+   
